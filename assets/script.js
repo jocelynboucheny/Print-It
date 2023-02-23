@@ -42,14 +42,6 @@ for (let i = 0; i < slides.length; i++) {
 
 let dotElement = document.querySelectorAll(".dot");
 
-function addDotSelectedToElement(element) {
-	element.classList.add("dot_selected");
-}
-
-function removeDotSelectedFromElement(element) {
-	element.classList.remove("dot_selected");
-}
-
 function changeDotElement(){
 
 	dotElement.forEach(element => {
