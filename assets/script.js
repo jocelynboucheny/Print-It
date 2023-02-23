@@ -33,6 +33,9 @@ function changeImgAndText() {
 for (let i = 0; i < slides.length; i++) {
 	let dotElement = document.createElement("div");
 	dotElement.className = "dot";
+	if (  i === ImgIndex ){
+		dotElement.classList.add("dot_selected");
+	}
 	bulletpoint.appendChild(dotElement);	
 }
 
